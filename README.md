@@ -8,7 +8,7 @@ To run the project and tests, follow these steps:
 
 1. **Clone the repository** to your local machine.
 
-2. **Go to the project directory**.
+2. **Go to the project directory** and create ``.env`` file.
 
 3. **Install dependencies** by running:
    ``composer install``
