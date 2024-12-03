@@ -9,7 +9,7 @@ class FeeDataProviderFactory
     public function create(string $type): FeeDataProviderInterface
     {
         return match ($type) {
-            'static' => new MockFeeDataProvider(),
+            'mock' => new MockFeeDataProvider(),
             default => throw new \InvalidArgumentException("Unknown FeeDataProvider type: $type"),
         };
     }

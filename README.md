@@ -1,6 +1,8 @@
 ### PragmaGO.TECH Interview Test - Fee Calculation
 
-Project presents a solution using the Symfony 7.2 framework
+Project presents a solution using the Symfony 7.2 framework.
+
+---  
 
 ### Project Setup and Testing Instructions
 
