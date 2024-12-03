@@ -51,5 +51,8 @@ helm/*/charts/*.tgz
 tests/Unit/Common/ZipExtractor/unzipped/
 tests/Unit/Core/Bank/Infrastructure/Aipp/Millenium/unzipped/*.CSV
 ###< custom ###
-/var/
-/vendor/
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###

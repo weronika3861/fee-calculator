@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App;
+namespace App\Calculator;
 
 use App\Model\LoanProposal;
 
-interface FeeCalculator
+interface FeeCalculatorInterface
 {
     /**
      * @return float The calculated total fee.

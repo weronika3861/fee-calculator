@@ -1,5 +1,36 @@
-PragmaGO.TECH Interview Test - Fee Calculation
-=====
+### PragmaGO.TECH Interview Test - Fee Calculation
+
+Project presents a solution using the Symfony 7.2 framework
+
+### Project Setup and Testing Instructions
+
+To run the project and tests, follow these steps:
+
+1. **Clone the repository** to your local machine.
+
+2. **Go to the project directory**.
+
+3. **Install dependencies** by running:
+   ``composer install``
+
+4. **Run the console command**:
+   ``php bin/console app:calculate-fee <term> <loanAmount>``
+   - term: The term of the loan in months (either 12 or 24).
+   - loanAmount: The loan amount in PLN (e.g., 2750.00).
+
+5. **To run the unit tests**, execute:
+   ``./vendor/bin/phpunit``
+
+6. **To check for coding standards violations**, run:
+   ``./vendor/bin/phpcs``
+
+7. **To perform static analysis and check for potential bugs**, run:
+   ``./vendor/bin/phpstan``
+
+
+---
+#### Below are the original instructions for the test
+---
 
 ## Background
 
